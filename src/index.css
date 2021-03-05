@@ -1,13 +1,59 @@
+  :root{
+    --theme-color:#13a7b1;
+    --primary-font:"Roboto",sans-serif;
+    --margin-bottom:2rem;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none;
+  }
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+    font-family: var(--primary-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  position: relative;
+}
+img{
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*--------------------------------------------------------------------
+ALL Section Heading css starts here
+--------------------------------------------------------------------*/
+/* Section heading one */
+.section_heading_one {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+  color: #111;
+  padding: 0 0.625rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+}
+.section_heading_one:before,
+.section_heading_one:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 0.063rem;
+  content: '\a0';
+  background-color: #111;
+}
+.section_heading_one:before {
+  margin-left: -54%;
+  text-align: right;
+}
+.section_heading_one:after {
+  margin-left: 4%;
+}
+.section_heading_one span {
+  font-weight: 600;
 }

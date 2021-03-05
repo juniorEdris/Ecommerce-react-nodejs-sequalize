@@ -1,0 +1,31 @@
+/* header css here */
+.header{
+    justify-content: center;
+    align-items: center;
+}
+/* logo css here */
+.logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.logo span{
+    color: var(--theme-color);
+}
+/* nav css here */
+.navigation_list li,.right_btns li{
+    margin-right:0.8rem;
+    font-size: 1.3rem;
+}
+.navigation_list li a,
+.right_btns li a{
+    color: var(--theme-color);
+    font-weight: 500;
+}
+.navigation_list li a:hover,
+.right_btns li a:hover{
+    color: #111;
+}
+/* Right btns css here */
+.right_btns .nav{
+    justify-content: flex-end;
+}
