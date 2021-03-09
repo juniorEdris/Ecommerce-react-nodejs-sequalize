@@ -1,7 +1,7 @@
 export const homeprod3 = [
   {
     id: 1,
-    image: 'product-1.jpg',
+    image: 'product-1.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -11,7 +11,7 @@ export const homeprod3 = [
   },
   {
     id: 2,
-    image: 'product-2.jpg',
+    image: 'product-2.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -21,7 +21,7 @@ export const homeprod3 = [
   },
   {
     id: 3,
-    image: 'product-6.jpg',
+    image: 'product-6.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -31,7 +31,7 @@ export const homeprod3 = [
   },
   {
     id: 1,
-    image: 'product-1.jpg',
+    image: 'product-1.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -41,7 +41,7 @@ export const homeprod3 = [
   },
   {
     id: 2,
-    image: 'product-2.jpg',
+    image: 'product-2.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -51,7 +51,7 @@ export const homeprod3 = [
   },
   {
     id: 3,
-    image: 'product-6.jpg',
+    image: 'product-6.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -61,7 +61,7 @@ export const homeprod3 = [
   },
   {
     id: 1,
-    image: 'product-1.jpg',
+    image: 'product-1.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -71,7 +71,7 @@ export const homeprod3 = [
   },
   {
     id: 2,
-    image: 'product-2.jpg',
+    image: 'product-2.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -81,7 +81,7 @@ export const homeprod3 = [
   },
   {
     id: 3,
-    image: 'product-6.jpg',
+    image: 'product-6.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -94,7 +94,7 @@ export const homeprod3 = [
 export const decor = [
   {
     id: 1,
-    image: 'product-7.jpg',
+    image: 'product-7.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -104,7 +104,7 @@ export const decor = [
   },
   {
     id: 2,
-    image: 'product-8.jpg',
+    image: 'product-6.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -114,7 +114,7 @@ export const decor = [
   },
   {
     id: 3,
-    image: 'product-19.jpg',
+    image: 'product-5.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -126,7 +126,7 @@ export const decor = [
 export const products = [
   {
     id: 1,
-    image: 'product-1.jpg',
+    image: 'product-1.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -136,7 +136,7 @@ export const products = [
   },
   {
     id: 2,
-    image: 'product-2.jpg',
+    image: 'product-2.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -146,7 +146,7 @@ export const products = [
   },
   {
     id: 3,
-    image: 'product-3.jpg',
+    image: 'product-3.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -156,7 +156,7 @@ export const products = [
   },
   {
     id: 4,
-    image: 'product-4.jpg',
+    image: 'product-4.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -166,7 +166,7 @@ export const products = [
   },
   {
     id: 5,
-    image: 'product-5.jpg',
+    image: 'product-5.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -176,7 +176,7 @@ export const products = [
   },
   {
     id: 6,
-    image: 'product-6.jpg',
+    image: 'product-6.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -186,7 +186,7 @@ export const products = [
   },
   {
     id: 7,
-    image: 'product-7.jpg',
+    image: 'product-7.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',
@@ -196,7 +196,7 @@ export const products = [
   },
   {
     id: 8,
-    image: 'product-8.jpg',
+    image: 'product-7.png',
     name: 'Product Name',
     mg: 100,
     brand: 'Omoron',

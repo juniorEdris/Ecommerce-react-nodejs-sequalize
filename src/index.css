@@ -20,11 +20,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   position: relative;
+  overflow-x: hidden;
 }
 img{
   width: 100%;
 }
-
+dl, ol, ul {
+padding: 0rem;
+}
 /*--------------------------------------------------------------------
 ALL Section Heading css starts here
 --------------------------------------------------------------------*/

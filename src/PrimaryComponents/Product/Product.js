@@ -4,14 +4,14 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 export const Product = (props) => {
-  const count = 1;
+  const count = 0;
   return (
     <div className="product-section col col-md-3">
       <div className={`product-item `} id={props.product.id}>
         <div className="product-thumb">
           <Link to={`/productdetails?id=${props.product.id}`}>
             <img
-              src={`assets/images/homepage/${props.product.image}`}
+              src={`assets/images/products/${props.product.image}`}
               className="pri-img"
               alt={props.product.name}
             />
@@ -58,7 +58,7 @@ export const Product = (props) => {
               <span class="dec qtybtn">
                 <i class="fa fa-minus"></i>
               </span>
-              <input type="text" defaultValue={0} className="" />
+              <input type="text" readOnly defaultValue={0} className="" />
               <span class="inc qtybtn">
                 <i class="fa fa-plus"></i>
               </span>

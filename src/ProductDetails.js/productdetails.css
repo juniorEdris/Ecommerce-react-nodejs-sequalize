@@ -1,0 +1,57 @@
+/* All Slider CSS starts*/
+/* Slider over written CSS */
+.details_slider .carousel .carousel-status {
+    display: none;
+}
+.details_slider .carousel .thumbs-wrapper {
+    margin: 0 !important;
+}
+.details_slider .thumbs-wrapper .thumb {
+    border-radius: 0.3rem;
+}
+.details_slider .slider-wrapper {
+    margin-bottom: 10px;
+}
+.details_slider
+.carousel
+.thumbs-wrapper
+.control-prev.control-arrow:before {
+    border-right: 8px solid var(--theme-color);
+}
+.details_slider
+.carousel
+.thumbs-wrapper
+.control-next.control-arrow:before {
+    border-left: 8px solid var(--theme-color);
+}
+.details_slider .carousel .thumb.selected, .carousel .thumb:hover{
+    border: 3px solid var(--theme-color);
+}
+.slider_single_img{
+    background: #fff;
+}
+/* img magnify CSS */
+.slider_single_img:hover img {
+    transform: scale(1.6);
+    transition: all 0.5s;
+}
+/* All Slider CSS ends*/
+
+/* All Detaisl CSS starts*/
+.details_product{
+    margin: 0rem 0.7rem 1.2rem 0.7rem;
+    text-transform: capitalize;
+}
+/* All Detaisl CSS ends*/
+/* All Detaisl CSS starts*/
+.review_list{
+    border: 1px solid var(--theme-color);
+    padding: 0.6rem;
+    border-radius: 0.25rem;
+    font-weight:500 ;
+}
+.customer_name{
+    color: var(--theme-color);
+    font-size: 1.3rem;
+}
+/* All Detaisl CSS ends*/

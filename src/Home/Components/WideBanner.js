@@ -6,7 +6,7 @@ export const WideBanner = (props) => {
         <div className='home_wide_banner'>
             <div className="banner_wrapper">
                 <div className="single_banner">
-                    <img src="./assets/images/homepage/homepage1.jpg" alt={ 'banner 1'}/>
+                    <img src="./assets/images/banners/search_banner.png" alt={ 'banner 1'}/>
                 </div>
             </div>
         </div>

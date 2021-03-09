@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
  const DecoreBanner = (props) => {
     return (
         <div className='decore_banner'>
-            <img src="./assets/images/homepage/homepage-2.jpg" alt={`decore`}/>
+            <img src="./assets/images/banners/search_banner.png" alt={`decore`}/>
         </div>
     )
 }
