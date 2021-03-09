@@ -1,5 +1,7 @@
   :root{
     --theme-color:#13a7b1;
+    --dark-color:#111;
+    --light-color:#fff;
     --primary-font:"Roboto",sans-serif;
     --margin-bottom:2rem;
   }
